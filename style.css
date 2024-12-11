@@ -3,4 +3,60 @@
     margin: 0;
     box-sizing: border-box;
 }
+h1{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    background-color:#00246B;
+    color: #CADCFC;
+    font-weight: bold;
+    border: 3px solid #525c65;
+    padding:5px 5px;
+    
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 30px 30px;
+    background-color: #8AAAE5;
+    
 
+}
+.my-div1{
+    margin-right: 50px;
+    height:80vh;
+    width:40vw;
+    border: 3px solid #525c65;
+    border-radius: 10px;
+    background-color: #F7F7F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.my-div2 {
+    height: 80vh;
+    width: 40vw;
+    border: 3px solid #525c65;
+    border-radius: 10px;
+    background-color:#F7F7F7;
+    
+}
+.my-div1:hover,.my-div2:hover{
+    background-color: #fffaf2;
+}
+.my-div1 img{
+    border: 3px solid black;
+    border-radius: 5px;
+}
+.my-div2 img{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}

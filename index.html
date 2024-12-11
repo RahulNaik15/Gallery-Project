@@ -1,9 +1,21 @@
 <html>
   <head>
     <title>Gallery Project</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <script src="script.js">
+    <h1><b><u>Image Gallery</u><b></h1>
+    <div class="main">
+      <div class="my-div1">
+       <img  src="mustang.jpg" alt="Mustang" height="200px" width="260px" onclick="changeImage(0)">
+       <img  src="lamborgini.jpg" alt="Lamborgini" height="200px" width="260px" onclick="changeImage(1)">
+       <img  src="sports.jpeg" alt="Range Rover" height="200px" width="260px" onclick="changeImage(2)">
+       <img  src="mercedes.jpeg" alt="Thar" height="200px" width="260px" onclick="changeImage(3)">
+      </div>
+      <div class="my-div2">
+        <img id="img1" src="mustang.jpg" alt="Mustang">
+      </div>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
